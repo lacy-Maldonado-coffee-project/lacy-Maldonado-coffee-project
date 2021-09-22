@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+td, th {
+    border: none;
+    padding: 5px 10px;
+}
+ul{
+    list-style-type: none;
+}
+.list-group{
+    list-style: none;
+}
+.card{
+
+    border-style: none;
+}
