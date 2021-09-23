@@ -7,11 +7,16 @@ h1{
     justify-content:center;
     align-items:center;
 }
-.jumbotron-fluid{
-
-
-
+.container{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.06);
 }
-.img-fluid{
-    background-size: 100%;
+
+.jumbotron{
+    background-image: url(img/coffee_cup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+

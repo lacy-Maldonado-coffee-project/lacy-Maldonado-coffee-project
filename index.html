@@ -12,35 +12,43 @@
 </head>
 <body>
 
-<div class="jumbotron jumbotron-fluid">
-	<img src="img/cup-coffee-beans-on-table-260nw-1461792533.jpeg" class="img-fluid" alt="Responsive image">
+<div class="jumbotron">
 	<div class="container">
-		<h1 class="display-4">Fluid jumbotron</h1>
+		<h1 class="display-4">StarBocks</h1>
 		<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
 	</div>
 </div>
-<h1>StarBocks</h1>
 
-<form>
-	<label for="roast-selection">Choose your roast</label>
-	<select id="roast-selection">
-		<option>any</option>
-		<option>light</option>
-		<option>medium</option>
-		<option>dark</option>
-	</select>
-	<label for="submitType"></label>
-	<input class="form-control"
-		   id="submitType"
-		   onkeyup="updateCoffeesText()"
-		   placeholder="Choose your flavor"
-		   title="Type in a name"
-		   value="">
-	<input id="submit"
-		   type="submit"/>
+<nav class="navbar navbar-light bg-light d-flex">
+	<div class="row">
+		<form class="form-inline">
+			<div class="dropdown flex-fill">
+				<label for="roast-selection">Choose your roast</label>
+				<select id="roast-selection">
+					<option>any</option>
+					<option>light</option>
+					<option>medium</option>
+					<option>dark</option>
+				</select>
+			</div>
+			<div class="search-bar">
+				<label for="submitType"></label>
+				<input class="form-control"
+					   id="submitType"
+					   onkeyup="updateCoffeesText()"
+					   placeholder="Choose your flavor"
+					   title="Type in a name"
+					   value="">
+				<button class="btn btn-outline-success "
+						id="submit"
+						type="submit">Search
+				</button>
+			</div>
+		</form>
+	</div>
+</nav>
 
 
-</form>
 <div class="container">
 	<div class="row">
 		<div class="col d-none">
