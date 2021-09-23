@@ -18,35 +18,36 @@
 		<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
 	</div>
 </div>
+<h1>Select a coffee to enjoy</h1>
+<div class="container">
+	<nav class="navbar navbar-light bg-light">
 
-<nav class="navbar navbar-light bg-light d-flex">
-	<div class="row">
-		<form class="form-inline">
-			<div class="dropdown flex-fill">
-				<label for="roast-selection">Choose your roast</label>
-				<select id="roast-selection">
-					<option>any</option>
-					<option>light</option>
-					<option>medium</option>
-					<option>dark</option>
-				</select>
-			</div>
-			<div class="search-bar">
-				<label for="submitType"></label>
-				<input class="form-control"
-					   id="submitType"
-					   onkeyup="updateCoffeesText()"
-					   placeholder="Choose your flavor"
-					   title="Type in a name"
-					   value="">
-				<button class="btn btn-outline-success "
-						id="submit"
-						type="submit">Search
-				</button>
-			</div>
-		</form>
-	</div>
-</nav>
+		<div class="dropdown">
+			<label for="roast-selection">Choose your roast</label>
+			<select id="roast-selection">
+				<option>any</option>
+				<option>light</option>
+				<option>medium</option>
+				<option>dark</option>
+			</select>
+		</div>
+
+		<div class="search-bar d-flex">
+			<label for="submitType"></label>
+			<input class="form-control"
+				   id="submitType"
+				   onkeyup="updateCoffeesText()"
+				   placeholder="Choose your flavor"
+				   title="Type in a name"
+				   value="">
+			<button class="btn btn-outline-success "
+					id="submit"
+					type="submit">Search
+			</button>
+		</div>
+
+	</nav>
+</div>
 
 
 <div class="container">
@@ -55,16 +56,43 @@
 			ID
 		</div>
 		<div class="col">
-			Name
+			<h3>Name</h3>
 		</div>
 		<div class="col">
-			roast
+			<h3>Roast</h3>
 		</div>
 	</div>
 
 	<div class="container"
 		 id="coffees"></div>
 
+</div>
+<br>
+<h1>Add a coffee here!</h1>
+<div class="dropdown">
+	<label for="add-Coffees">Choose your roast</label>
+	<select id="add-Coffees">
+		<option>light</option>
+		<option>medium</option>
+		<option>dark</option>
+	</select>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="search-bar d-flex">
+			<label for="submitType"></label>
+			<input class="form-control"
+				   id="submitButtonType"
+				   onkeyup="updateCoffeesText()"
+				   placeholder="Choose your flavor neighbor"
+				   title="Type in a name"
+				   value="">
+			<button class="btn btn-outline-success "
+					id="add-Coffees"
+					type="submit">Search
+			</button>
+		</div>
+	</div>
 </div>
 <script crossorigin="anonymous"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
