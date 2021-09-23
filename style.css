@@ -1,22 +1,36 @@
+* {
+	font-family: 'Creepster', cursive;
+	color: rgb(39, 110, 53);
+}
+
 table {
-    border-collapse: collapse;
-    margin: 15px 0;
-}
-h1{
-    display: flex;
-    justify-content:center;
-    align-items:center;
-}
-.container{
-    color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.06);
+	border-collapse: collapse;
+	margin: 15px 0;
 }
 
-.jumbotron{
-    background-image: url(img/coffee_cup.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+.container {
+	color: rgb(0, 0, 0);
+	background-color: rgba(255, 255, 255, 0.06);
+	padding: 0 0;
+	margin: 0 0;
+}
 
+.jumbotron {
+	background-image: url(img/coffee_cup.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+body {
+	background-image: url(img/coffee_2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

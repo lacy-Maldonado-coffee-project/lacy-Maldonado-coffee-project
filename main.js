@@ -1,5 +1,6 @@
 "use strict"
 
+
 function renderCoffee(coffee) {
 	var html = '<div class="coffee row">';
 	html += '<div class="col d-none ">' + coffee.id + '</div>';
@@ -49,7 +50,7 @@ function updateCoffeesText(e) {
 	tbody.innerHTML = renderCoffees(filteredCoffees);
 }
 
-function addCoffeesText(e){
+function addCoffeesText(e) {
 	var filterdCoffees = [];
 	var textSearch = addCoffees.value.toLowerCase();
 	coffees.forEach(function (coffee) {
