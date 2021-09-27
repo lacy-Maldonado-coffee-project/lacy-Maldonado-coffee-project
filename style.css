@@ -1,6 +1,7 @@
 * {
 	font-family: 'Creepster', cursive;
 	color: rgb(39, 110, 53);
+	min-height: 100%;
 
 }
 
@@ -30,10 +31,11 @@ h1 {
 }
 
 body {
-	background-image: url(img/coffee_2.jpeg);
+	background-image: url(https://media.giphy.com/media/3ohze2v9DClNU2Cdl6/giphy.gif?cid=ecf05e47jf9eynrv8hzua5kyz3jta3plbjz7fsjblg9b1ux7&rid=giphy.gif&ct=g);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+
 
 }
 
@@ -57,5 +59,8 @@ body {
 	margin-top: 12px;
 }
 
+footer {
+	background: #494949;
+}
 
 
