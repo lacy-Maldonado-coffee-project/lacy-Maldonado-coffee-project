@@ -49,12 +49,13 @@ function updateCoffeesText(e) {
 	});
 	writeCoffeeHtmlToPage(filteredCoffees);
 }
-function addCoffee(e){
+
+function addCoffee(e) {
 	e.preventDefault();
 	var newRoast = newRoastSeletion.value;
 	var newName = newNameSelection.value;
-	var coffee = {name:newName,roast:newRoast}
-	var coffeeJSON= JSON.stringify(coffee);
+	var coffee = {name: newName, roast: newRoast}
+	var coffeeJSON = JSON.stringify(coffee);
 	localStorage.setItem("newCoffee", coffeeJSON);
 	var text = localStorage.getItem("newCoffee");
 	var obj = JSON.parse(text);
@@ -99,4 +100,4 @@ var newRoastSeletion = document.querySelector('#add-roast');
 
 submitButton.addEventListener('click', updateCoffees);
 
-addingCoffee.addEventListener('click',addCoffee);
+addingCoffee.addEventListener('click', addCoffee);

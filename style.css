@@ -1,6 +1,7 @@
 * {
 	font-family: 'Creepster', cursive;
 	color: rgb(39, 110, 53);
+
 }
 
 table {
@@ -33,4 +34,26 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+
 }
+.container-add{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.dropdown-add{
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+
+#add-roast{
+	margin-left: 1em;
+}
+
+#name-add-roast{
+	margin-top: 12px;
+}
+
+
+
