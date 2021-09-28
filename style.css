@@ -1,6 +1,6 @@
 * {
 	font-family: 'Creepster', cursive;
-	color: rgb(39, 110, 53);
+	color: rgb(255, 87, 51);
 	min-height: 100%;
 
 }
@@ -17,14 +17,17 @@ h1 {
 }
 
 .container {
-	color: rgb(0, 0, 0);
-	/*background-color: rgba(255, 255, 255, 0.10);*/
-	padding: 0 0;
-	margin: 0 0;
+	padding: 0;
+	background-color: rgba(87, 24, 69, .75);
+
+}
+
+.navbar {
+	width: 65%;
 }
 
 .jumbotron {
-	background-image: url(img/coffee_cup.png);
+	background-image: url(img/20190816-Coffee-08.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -61,6 +64,10 @@ body {
 
 footer {
 	background: #494949;
+}
+
+.nav-link {
+	color: #ffc300
 }
 
 
