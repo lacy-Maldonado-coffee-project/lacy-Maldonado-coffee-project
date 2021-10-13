@@ -70,7 +70,9 @@ var coffees = [
 coffees.reverse();
 
 function writeCoffeeHtmlToPage(coffeeArray) {
-	tbody.innerHTML = renderCoffees(coffeeArray.sort((a, b) => (a.name > b.name) ? -1 : 1));
+	tbody.innerHTML = renderCoffees(coffeeArray.sort(function (a, b) {
+		return (a.name > b.name) ? -1 : 1;
+	}));
 }
 
 

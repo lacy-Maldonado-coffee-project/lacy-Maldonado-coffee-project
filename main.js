@@ -84,7 +84,6 @@ var coffees = [
 	{id: 14, name: 'MeeMee', roast: 'dark'},
 ];
 coffees.reverse();
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~refactor this function!!!!!!!!!!!!!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function writeCoffeeHtmlToPage(coffeeArray) {
 	tbody.innerHTML = renderCoffees(coffeeArray.sort((a, b) => (a.name > b.name) ? -1 : 1));
 }
